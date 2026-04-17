@@ -1,1 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/* header */
+header {
+    text-align: center;
+    align-content: center;
+    width: 100%;
+}
+h1 {
+    background-color: #233D4D;
+    color: white;
+    height: 90px;
+    align-content: center;
+}
+h3 {
+    background-color: #215E61;
+    color: white;
+    height: 40px;
+    align-content: center;
+    margin-top: 2px;
+}
+/* main */
+main {
+    background-color: aliceblue;
+}
+.card1  {
+display: flex;
+line-height: 30px;
+font-size: 20px;
+}
+ p {
+ text-align: justify;  
+ margin-left: 40px;
+ margin-top: 50px;
+}
+.img1 {
+    height: 300px;
+}
+.nom {
+    font-size: 25px;
+    color: #233D4D;
+   font-weight: 900;
+}
+.Frontend {
+    color:  #233D4D;
+    font-weight: 800;
 
+}
+/* style du deuxième personnage */
+.img2 {
+   margin-top: 40px; 
+}
+.card2 {
+    display: flex;
+    margin-left: 500px;
+    line-height: 30px;
+    font-size: 20px;
+}
+.nom2 {
+  font-size: 25px;
+   color: #215E61;
+   font-weight: 900; 
+}
+.Backend {
+    color:#215E61 ;
+    font-weight: 800;
+}
+/* style competences */
+.compétences {
+    display: flex;
+    justify-content: space-between;
+}
+.max {
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    align-content: center;
+    background-color: #233D4D;
+    opacity: 70%;
+    color: white;
+    border-radius: 10%;
+    margin: 10px;
+    line-height: 20px;
+}
+.fem {
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    align-content: center;
+    background-color:  #215E61 ;
+    opacity: 70%;
+    color: white;
+    border-radius: 10%;
+    margin: 10px; 
+    line-height: 20px;
+}
+/* footer */
+form h2 {
+    align-content: center;
+    text-align: center;
+}
+.séparation {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+form .formulaire {
+    background-color: aliceblue;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+button {
+    height: 40px;
+    width: 15%;
+    color: black;
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: solid 1px black;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
